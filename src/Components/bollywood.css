@@ -1,0 +1,114 @@
+.blogpost
+{
+    width:65%;
+    display: inline-block;
+}
+.sidepost
+{
+    width:30%;
+    float:right;
+}
+.wrap
+{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    height:200px;
+    margin-top:10px;
+}
+.bimage1
+{
+    height:100%;
+    width:100%;
+}
+.para
+{
+    padding-top:25px;
+    width:43%;
+    overflow-wrap: break-word;
+}
+.para1
+{
+    margin-bottom:15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+}
+.para2
+{
+    margin-top:5px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    color: grey;
+}
+.para3
+{
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+.pimage
+{
+    width:100%;
+}
+#post1details
+{
+    margin-bottom: 15px;
+}
+.post1
+{
+    margin-top:10px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    overflow-wrap: break-word;
+    width:85%;
+}
+.number1
+{
+    color:grey;
+    width:10%;
+    float:right;
+    font-size:40px;
+}
+.post2
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+}
+.post2imagediv
+{
+    width:40%;
+}
+.post2details
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    margin-left: 5px;
+    width:50%;
+}
+.post2number
+{
+    width:10%;
+    font-size:40px;
+   margin-left: 5px;
+   color: grey;
+}
+.post2image
+{
+    width:100%;
+    height: 100%;
+}
+.titleOfPost
+{
+    font-family:'Dosis', sans-serif ;
+    font-size: 2rem;
+    margin-top:10px; 
+    margin-bottom: 20px;
+}

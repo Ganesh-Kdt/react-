@@ -5,6 +5,7 @@
     top:150px;
     margin:auto;
     width:80%;
+    height:100%;
 }
 .header-container
 {
@@ -23,7 +24,7 @@
     font-family: 'Dosis', sans-serif;
     font-size: large;
 }
-hr
+.navbarhr
 {
     display:block;
     position: relative;

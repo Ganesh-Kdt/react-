@@ -1,4 +1,4 @@
-import logo from "../Images/food.jpg"
+import logo from "../Images/bike.jpg"
 const data=[
     {
         id:1,

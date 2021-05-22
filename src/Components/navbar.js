@@ -15,7 +15,7 @@ function NavBar()
             <div><NavLink className="header-items" to="/fitness">Fitness</NavLink></div>
             <div><NavLink className="header-items" to="/food">Food</NavLink></div>
         </div>
-        <hr></hr>
+        <hr className="navbarhr"></hr>
         </>
     )
 }

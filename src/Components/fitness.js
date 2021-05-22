@@ -9,58 +9,29 @@ function Fitness()
 {
     const [items]=useState(data);
     return(
-        <div>
+        <div className="sub-app-container">
             <NavBar />
             <div className="main-container">
                 <div className="blogpost">
                     <div className="titleOfPost">Fitness</div>
-                <div>
+                <div className="container">
                     {items.map((item)=>
-                    <NavLink key={item.id} to={`/bio/${item.id}`}>
+                    <NavLink className="nav-container" key={item.id} to={`/bio/${item.id}`}>
                     <div className="wrap">
-                    <div><img className="bimage1" src={item.url} alt="yes"/></div>
+                    <div className="bimage1-container"><img className="bimage1" src={item.url} alt="yes"/></div>
                     <div className="para">
                         <div className="para1">{item.head}</div>
                         <div className="para2">{item.content}</div>
                         <div className="para3">{item.foot}</div>
                     </div>
                 </div>
-                <div style={{color:"grey"}}>______________________________________________________________________</div>
+                <hr className="hrblogpost"></hr>
                 </NavLink>
                 )
                 }
                 </div>
                 </div>
-                <div className="sidepost">
-                    <div className="titleOfPost">Top Posts</div>
-                <div>
-                    <NavLink to="/bio/1">
-                    <div>
-                        <div><img className="pimage" src={logo} alt="yes"/></div>
-                        <div id="post1details">
-                            <div className="post1">catch waves with an adventure guide</div>
-                            <div className="number1">1</div>
-                        </div>
-                    </div>
-                    </NavLink>
-                    <hr></hr>
-                    <NavLink to="/bio/2">
-                    <div className="post2">
-                        <div className="post2imagediv"><img className="post2image" src={logo}/></div>
-                        <div className="post2details">catch waves with an adventure guide</div>
-                        <div className="post2number">2</div>
-                    </div>
-                    </NavLink>
-                    <hr></hr>
-                    <NavLink to="/bio/3">
-                    <div className="post2">
-                    <div className="post2imagediv"><img className="post2image" src={logo}/></div>
-                        <div className="post2details">catch waves with an adventure guide</div>
-                        <div className="post2number">3</div>
-                    </div>
-                    </NavLink>
-                </div>
-                </div>
+                <Post/>
             </div>
         </div>
     )

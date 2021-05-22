@@ -6,6 +6,7 @@ import "../../node_modules/font-awesome/css/font-awesome.min.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee, faHandSparkles, faHandsWash, faShare, faShareAlt, faShareSquare } from "@fortawesome/free-solid-svg-icons"
 import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons"
+import face from "../Images/face.jpg"
 function Bollywood1(props)
 {
     const [param,setParam]=useState({})
@@ -26,6 +27,7 @@ function Bollywood1(props)
         <p>5 ways to create a react component</p>
         </div>
         <div className="authorandtag">
+            <div className="author-face"><img className="author-image" src={face} alt="yes"/></div>
             <div className="author">
                 <div className="authorname">ganesh</div>
                 <div>August 12th 2018</div>
@@ -42,7 +44,9 @@ function Bollywood1(props)
         </div>
         <div className="side-container">
             <div className="icon1">
-                <div><FontAwesomeIcon icon={faHandsWash}/></div>
+                <div>
+                    <FontAwesomeIcon icon={faHandsWash}/>
+                </div>
                 <div className="share">9.3K</div>
             </div>
             <br></br>

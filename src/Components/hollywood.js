@@ -4,11 +4,15 @@ import "./bollywood.css"
 import Post from "./post"
 import {NavLink} from "react-router-dom"
 import NavBar from "./navbar"
-import data from "./bollywooddetails"
+import data from "./data"
 
 function Hollywood()
 {
-    const [items]=useState(data);
+    const food=data.filter((item)=>
+    {
+        if(item.id>=4 && item.id<=6)
+        return item
+    })
     return(
         <div className="sub-app-container">
             <NavBar />
@@ -16,18 +20,18 @@ function Hollywood()
                 <div className="blogpost">
                     <div className="titleOfPost">Hollywood</div>
                 <div className="container">
-                    {items.map((item)=>
+                {food.map((item)=>
                     <NavLink className="nav-container" key={item.id} to={`/bio/${item.id}`}>
                     <div className="wrap">
-                    <div className="bimage1-container"><img className="bimage1" src={item.url} alt="yes"/></div>
+                    <div className="bimage1-container"><img className="bimage1" src={item.image} alt="yes"/></div>
                     <div className="para">
-                        <div className="para1">{item.head}</div>
-                        <div className="para2">{item.content}</div>
-                        <div className="para3">{item.foot}</div>
+                        <div className="para1">{item.title}</div>
+                        <div className="para2">{item.description}</div>
+                        <div className="para3">{item.date}</div>
                     </div>
-                </div>
-                <hr className="hrblogpost"></hr>
-                </NavLink>
+                    </div>
+                    <hr className="hrblogpost"></hr>
+                    </NavLink>
                 )
                 }
                 </div>

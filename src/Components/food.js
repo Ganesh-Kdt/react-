@@ -4,10 +4,14 @@ import "./bollywood.css"
 import Post from "./post"
 import {NavLink} from "react-router-dom"
 import NavBar from "./navbar"
-import data from "./bollywooddetails"
+import data from "./data"
 function Food()
 {
-    const [items]=useState(data);
+    const food=data.filter((item)=>
+    {
+        if(item.id>=1 && item.id<=3)
+        return item
+    })
     return(
         <div className="sub-app-container">
             <NavBar />
@@ -15,18 +19,18 @@ function Food()
                 <div className="blogpost">
                     <div className="titleOfPost">Food</div>
                 <div className="container">
-                    {items.map((item)=>
+                {food.map((item)=>
                     <NavLink className="nav-container" key={item.id} to={`/bio/${item.id}`}>
                     <div className="wrap">
-                    <div className="bimage1-container"><img className="bimage1" src={item.url} alt="yes"/></div>
+                    <div className="bimage1-container"><img className="bimage1" src={item.image} alt="yes"/></div>
                     <div className="para">
-                        <div className="para1">{item.head}</div>
-                        <div className="para2">{item.content}</div>
-                        <div className="para3">{item.foot}</div>
+                        <div className="para1">{item.title}</div>
+                        <div className="para2">{item.description}</div>
+                        <div className="para3">{item.date}</div>
                     </div>
-                </div>
-                <hr className="hrblogpost"></hr>
-                </NavLink>
+                    </div>
+                    <hr className="hrblogpost"></hr>
+                    </NavLink>
                 )
                 }
                 </div>

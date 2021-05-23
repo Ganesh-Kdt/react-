@@ -24,13 +24,13 @@ function Bollywood1(props)
         <>
         <div className="main-container1">
         <div className="title">
-        <p>5 ways to create a react component</p>
+        <p>{param.title}</p>
         </div>
         <div className="authorandtag">
             <div className="author-face"><img className="author-image" src={face} alt="yes"/></div>
             <div className="author">
-                <div className="authorname">ganesh</div>
-                <div>August 12th 2018</div>
+                <div className="authorname">{param.author}</div>
+                <div>{param.date}</div>
             </div>
             <div className="tags">
                 <FontAwesomeIcon icon={faFacebook}/>
@@ -39,8 +39,8 @@ function Bollywood1(props)
                 <FontAwesomeIcon icon={faYoutube}/>
             </div>
         </div>
-        <div className="image-container"><img className="image" src={logo} alt="yes"/></div>
-        <div className="text">Oozing out cheese and delightful vegetable toppings seasoned with spicy chili flakes and oregano can leave anyone yearning for a hearty pizza treat! There’s no denying to the fact that a pizza can instantly lift up your mood and it is hard to resist a delicious pizza. With too much health consciousness most of us compromise our palate preferences and ditch the idea of relishing a cheese loaded pizza. Well, if you too feel the same, then we have got you covered, here are a few simple homemade pizza recipes which you can nail easily by adding fresh and healthy ingredients and enjoy anytime.</div>
+        <div className="image-container"><img className="image" src={param.image} alt="yes"/></div>
+        <div className="text">{param.para}</div>
         </div>
         <div className="side-container">
             <div className="icon1">

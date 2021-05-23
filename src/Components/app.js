@@ -6,7 +6,7 @@ import Hollywood from "./hollywood"
 import Bollywood1 from "./Bollywood1"
 import Post from "./post"
 import "./navbar.css"
-import {BrowserRouter,Route,Switch} from "react-router-dom"
+import {HashRouter,Route,Switch} from "react-router-dom"
 import Technology from "./technology"
 import Fitness from "./fitness"
 import Food from "./food"
@@ -21,7 +21,7 @@ function App()
         <>
         <div className="app-title">The Siren</div>
         <div className="app-container">
-        <BrowserRouter>
+        <HashRouter>
         <Route path="/" component={Home} exact />
         <Route path="/bollywood" component={Bollywood} exact/>
         <Route path="/technology" component={Technology} exact/>
@@ -29,7 +29,7 @@ function App()
         <Route path="/fitness" component={Fitness} exact/>
         <Route path="/food" component={Food} exact/>
         <Route path="/bio/:id" component={Bollywood1} exact />
-        </BrowserRouter>
+        </HashRouter>
         </div>
         </>
     )

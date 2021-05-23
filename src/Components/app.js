@@ -18,6 +18,8 @@ library.add(fab, faCheckSquare, faCoffee)
 function App()
 {
     return(
+        <>
+        <div className="app-title">The Siren</div>
         <div className="app-container">
         <BrowserRouter>
         <Route path="/" component={Home} exact />
@@ -29,6 +31,7 @@ function App()
         <Route path="/bio/:id" component={Bollywood1} exact />
         </BrowserRouter>
         </div>
+        </>
     )
 }
 export default App

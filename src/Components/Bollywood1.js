@@ -10,7 +10,6 @@ import face from "../Images/face.jpg"
 function Bollywood1(props)
 {
     const [param,setParam]=useState({})
-  //  const [paramid,setParamid]=useState(0)
    useEffect(()=>
     {
         const newitem=data.find((item)=>
@@ -26,6 +25,7 @@ function Bollywood1(props)
         <div className="title">
         <p>{param.title}</p>
         </div>
+        <div className="hrdivtitle"><hr></hr></div>
         <div className="authorandtag">
             <div className="author-face"><img className="author-image" src={face} alt="yes"/></div>
             <div className="author">

@@ -10,7 +10,14 @@
     font-family:sans-serif;
     width:70%;
     margin:auto;
-    text-align:left;
+    text-align:center;
+}
+.hrdivtitle
+{
+    margin:auto;
+    width:50%;
+    position: relative;
+    bottom:10px;
 }
 p
 {

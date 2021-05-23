@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/react-/static/css/main.3588024f.chunk.css",
+    "main.js": "/react-/static/js/main.74e9f54f.chunk.js",
+    "main.js.map": "/react-/static/js/main.74e9f54f.chunk.js.map",
+    "runtime-main.js": "/react-/static/js/runtime-main.c4b6b317.js",
+    "runtime-main.js.map": "/react-/static/js/runtime-main.c4b6b317.js.map",
+    "static/css/2.24cab481.chunk.css": "/react-/static/css/2.24cab481.chunk.css",
+    "static/js/2.85946491.chunk.js": "/react-/static/js/2.85946491.chunk.js",
+    "static/js/2.85946491.chunk.js.map": "/react-/static/js/2.85946491.chunk.js.map",
+    "index.html": "/react-/index.html",
+    "static/css/2.24cab481.chunk.css.map": "/react-/static/css/2.24cab481.chunk.css.map",
+    "static/css/main.3588024f.chunk.css.map": "/react-/static/css/main.3588024f.chunk.css.map",
+    "static/js/2.85946491.chunk.js.LICENSE.txt": "/react-/static/js/2.85946491.chunk.js.LICENSE.txt",
+    "static/media/bollywood-akshay.8e33d5e3.jpeg": "/react-/static/media/bollywood-akshay.8e33d5e3.jpeg",
+    "static/media/bollywood-kareena.15a76735.jpeg": "/react-/static/media/bollywood-kareena.15a76735.jpeg",
+    "static/media/bollywood-tiger.dde42782.jpeg": "/react-/static/media/bollywood-tiger.dde42782.jpeg",
+    "static/media/fitness.ae74c129.jpg": "/react-/static/media/fitness.ae74c129.jpg",
+    "static/media/font-awesome.min.css": "/react-/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/food-fruits.51e00d96.jpg": "/react-/static/media/food-fruits.51e00d96.jpg",
+    "static/media/food-grain.7efd8f27.jpg": "/react-/static/media/food-grain.7efd8f27.jpg",
+    "static/media/food-oil.08abebca.jpg": "/react-/static/media/food-oil.08abebca.jpg",
+    "static/media/food.d48194fe.jpg": "/react-/static/media/food.d48194fe.jpg",
+    "static/media/hollywood-covid.43e09b5e.jpg": "/react-/static/media/hollywood-covid.43e09b5e.jpg",
+    "static/media/hollywood-kingkong.4bc8d1d4.jpeg": "/react-/static/media/hollywood-kingkong.4bc8d1d4.jpeg",
+    "static/media/hollywood-netflix.0ff3afe4.jpg": "/react-/static/media/hollywood-netflix.0ff3afe4.jpg",
+    "static/media/technology-hacker.58a94328.jpg": "/react-/static/media/technology-hacker.58a94328.jpg",
+    "static/media/navbar.css": "/react-/static/media/technology-robot.7e983754.jpg",
+    "static/media/technology-snapchat.7eadd519.jpg": "/react-/static/media/technology-snapchat.7eadd519.jpg",
+    "static/media/technology.942a91fd.jpg": "/react-/static/media/technology.942a91fd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4b6b317.js",
+    "static/css/2.24cab481.chunk.css",
+    "static/js/2.85946491.chunk.js",
+    "static/css/main.3588024f.chunk.css",
+    "static/js/main.74e9f54f.chunk.js"
+  ]
+}

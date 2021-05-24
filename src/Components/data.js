@@ -102,7 +102,7 @@ const data=[
     {
         id:9,
         title:"Akshay clarifies rumours on Sooryavanshi, Bell Bottom release dates",
-        description:"Akshay Kumar released an official statement to address rumours that his upcoming films Sooryavanshi and Bell Bottom would release on Independence Day.",
+        description:"Akshay Kumar released an official statement to address rumours that his upcoming Bell Bottom would release on Independence Day.",
         para:"Fans of Akshay Kumar might have to wait a little longer to see him in Sooryavanshi and Bell Bottom. The actor has released an official statement clarifying the speculations on the release dates of the two movies.The actor on Saturday, Akshay said, I'm humbled at the excitement and eagerness of my fans regarding the release of Sooryavanshi and Bell Bottom, and want to thank them from the bottom of my heart for all their love However, at this point, it is purely speculative to say that both films will release on Independence Day. The producers of both films are working out the release dates and will make announcements at the right time, he added according to the official release.The film had previously been postponed due to the spike in coronavirus cases in India.Sooryavanshi that features Akshay and Katrina Kaif in the lead was set to get a theatrical release on April 30.Earlier, in March, Akshay who was diagnosed with Covid-19 in April, had announced the release date for his film along with a teaser video on his Twitter handle.",
         image:img9,
         date:" MAY 23, 2021",

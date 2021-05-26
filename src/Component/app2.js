@@ -2,15 +2,28 @@ import React, { useEffect } from "react"
 import {useState} from "react"
 function App2()
 {
-    const [count,setCount]=useState(0)
-    useEffect(()=>
+    
+    const [state,setState]=useState({count:0,name:"ganesh"})
+    
+    function click()
     {
-        setCount((prevCount)=> {return prevCount+1})
-    },[])
+        setState((prevState)=>
+        {
+            return{
+                ...prevState,
+                name:"dinesh"
+            }
+        })
+    }
+    if(state.count<2)
+    {
+        console.log("before-render")
+    }
     return(
         <>
-        {console.log("render"+count)}
-        {count===1?<h3>{count}</h3>:null}
+        {console.log(state)}
+        <h1>{state.count}</h1>
+        <button onClick={click}></button>
         </>
     )
 }
